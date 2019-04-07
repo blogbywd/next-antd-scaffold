@@ -10,6 +10,9 @@ const Home = () => (
     <Link prefetch href='/user/userList'>
       <Button type='primary'>用户列表页</Button>
     </Link>
+    <Link prefetch href='/article/list'>
+      <Button type='primary'>文章列表</Button>
+    </Link>
     <IfComp
       expression={true}
       trueComp={
